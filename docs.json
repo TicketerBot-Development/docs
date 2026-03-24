@@ -24,22 +24,6 @@
     },
     "anchors": [
       {
-        "anchor": "Ticketer Bot Docs",
-        "color": {
-          "light": "#5865F2",
-          "dark": "#5865F2"
-        },
-        "groups": [
-          {
-            "group": "Getting Started",
-            "pages": [
-              "introduction",
-              "setup"
-            ]
-          }
-        ]
-      },
-      {
         "anchor": "Dashboard",
         "icon": "grid-2-plus",
         "color": {
@@ -65,6 +49,22 @@
           "dark": "#5865F2"
         },
         "href": "https://top.gg/bot/1453525696373723247/vote"
+      },
+      {
+        "anchor": "Ticketer Bot Docs",
+        "color": {
+          "light": "#5865F2",
+          "dark": "#5865F2"
+        },
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "setup"
+            ]
+          }
+        ]
       }
     ]
   },
