@@ -9,79 +9,51 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Invite Ticketer",
+          "icon": "book-open-cover",
+          "color": {
+            "light": "#5865F2",
+            "dark": "#5865F2"
+          },
+          "href": "https://ticketer.bot/invite"
         }
       ]
-    }
+    },
+    "anchors": [
+      {
+        "anchor": "Getting Started",
+        "pages": [
+          "introduction"
+        ]
+      },
+      {
+        "anchor": "Dashboard",
+        "color": {
+          "light": "#5865F2",
+          "dark": "#5865F2"
+        },
+        "href": "https://dashboard.ticketer.bot"
+      },
+      {
+        "anchor": "Support Server",
+        "color": {
+          "light": "#5865F2",
+          "dark": "#5865F2"
+        },
+        "href": "https://ticketer.bot/discord"
+      },
+      {
+        "anchor": "Vote for Ticketer",
+        "color": {
+          "light": "#5865F2",
+          "dark": "#5865F2"
+        },
+        "href": "https://top.gg/bot/1453525696373723247/vote"
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -118,5 +90,8 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
+  },
+  "fonts": {
+    "family": "Plus Jakarta Sans"
   }
 }
