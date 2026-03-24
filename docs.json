@@ -1,19 +1,19 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "aspen",
+  "name": "Ticketer Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#5865F2",
+    "light": "#5865F2",
+    "dark": "#5865F2"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/Ticketer-Icon-Light.png",
   "navigation": {
     "global": {
       "anchors": [
         {
           "anchor": "Invite Ticketer",
-          "icon": "book-open-cover",
+          "icon": "plus-large",
           "color": {
             "light": "#5865F2",
             "dark": "#5865F2"
@@ -24,13 +24,24 @@
     },
     "anchors": [
       {
-        "anchor": "Getting Started",
-        "pages": [
-          "introduction"
+        "anchor": "Ticketer Bot Docs",
+        "color": {
+          "light": "#5865F2",
+          "dark": "#5865F2"
+        },
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "setup"
+            ]
+          }
         ]
       },
       {
         "anchor": "Dashboard",
+        "icon": "grid-2-plus",
         "color": {
           "light": "#5865F2",
           "dark": "#5865F2"
@@ -39,6 +50,7 @@
       },
       {
         "anchor": "Support Server",
+        "icon": "message-dots",
         "color": {
           "light": "#5865F2",
           "dark": "#5865F2"
@@ -47,6 +59,7 @@
       },
       {
         "anchor": "Vote for Ticketer",
+        "icon": "thumbs-up",
         "color": {
           "light": "#5865F2",
           "dark": "#5865F2"
@@ -56,14 +69,14 @@
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/Ticketer_Docs.png",
+    "dark": "/logo/Ticketer_Docs.png"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "https://ticketer.bot/discord"
       }
     ],
     "primary": {
@@ -93,5 +106,8 @@
   },
   "fonts": {
     "family": "Plus Jakarta Sans"
+  },
+  "appearance": {
+    "default": "system"
   }
 }
