@@ -67,7 +67,8 @@
           {
             "group": "Product",
             "pages": [
-              "ticketer-pro"
+              "ticketer-pro",
+              "ticketer-cloud"
             ]
           }
         ]
