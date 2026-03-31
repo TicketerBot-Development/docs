@@ -63,6 +63,12 @@
               "introduction",
               "setup"
             ]
+          },
+          {
+            "group": "Product",
+            "pages": [
+              "ticketer-pro"
+            ]
           }
         ]
       }
